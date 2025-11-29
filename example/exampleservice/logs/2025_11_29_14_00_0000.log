@@ -1,0 +1,7 @@
+2025/11/29 14:04:34.17    101|example-node         INFO   C000410000             Node E:/Project/go-game/snow/core/logging/handler/file/file_handler.go(158) read config => boot name: local host: 127.0.0.1 port: 19080
+2025/11/29 14:04:34.18    101|example-node         INFO   C000410000             Node E:/Project/go-game/snow/core/logging/handler/file/file_handler.go(158) tcp listen at 127.0.0.1:19080, http listen at 127.0.0.1:19090, local IP: 127.0.0.1
+2025/11/29 14:04:34.18    101|example-node         INFO   C000410000             Node E:/Project/go-game/snow/core/logging/handler/file/file_handler.go(158) 2 services started
+2025/11/29 14:04:34.18    101|example-node         INFO   C0003FE140            *Beta E:/Project/go-game/snow/core/logging/handler/file/file_handler.go(158) Beta service ready at 127.0.0.1:19080
+2025/11/29 14:04:34.18    101|example-node         INFO   C0003FE000           *Alpha E:/Project/go-game/snow/core/logging/handler/file/file_handler.go(158) Alpha service ready at 127.0.0.1:19080
+2025/11/29 14:04:34.18    101|example-node         INFO   C0003FE000           *Alpha E:/Project/go-game/snow/core/logging/handler/file/file_handler.go(158) start success
+2025/11/29 14:04:34.18    101|example-node         INFO   C0003FE140            *Beta E:/Project/go-game/snow/core/logging/handler/file/file_handler.go(158) start success

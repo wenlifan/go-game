@@ -1,0 +1,47 @@
+{
+  "Host": {
+    "StartWaitTimeoutSeconds": 10,
+    "StopWaitTimeoutSeconds": 10
+  },
+  "Log": {
+    "Compound": {
+      "NodeId": 101,
+      "NodeName": "example-node"
+    },
+    "Console": {
+      "Formatter": "Color",
+      "DefaultLevel": 3,
+      "Filter": {
+        "Service/Alpha": 3,
+        "Service/Beta": 3
+      }
+    },
+    "File": {
+      "LogPath": "logs",
+      "FileNameFormat": "%Y_%02M_%02D_%02h_%02m_%04i.log",
+      "DefaultLevel": 3,
+      "MaxLogChanLength": 4096
+    }
+  },
+  "Node": {
+    "LocalIP": "127.0.0.1",
+    "HttpKeepAliveSeconds": 30,
+    "HttpTimeoutSeconds": 10,
+    "HttpDebug": true,
+    "BootName": "local",
+    "Nodes": {
+      "local": {
+        "Order": 1,
+        "Host": "127.0.0.1",
+        "Port": 19080,
+        "HttpPort": 19090,
+        "UseHttps": false,
+        "Services": [
+          "Alpha",
+          "Beta"
+        ]
+      }
+    }
+  }
+}
+
